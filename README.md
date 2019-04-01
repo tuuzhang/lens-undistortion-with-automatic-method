@@ -1,6 +1,6 @@
 # lens-undistortion-with-automatic-method(vs2013 project)
 Lens Distortion Correction Using Two-Parameter Models, polynomial and division models.
-This method aimed at correct the len's radial distortion. Us method, you can correcte the distortion image without camera calibration.
+This method aimed at correct the len's radial distortion. Using this method, you can correcte the distortion image without camera calibration.
 
 The source code provides an implementation of a lens distortion correction algorithm and algorithm as described in IPOL. The undistortion IPOL website is http://www.ipol.im/pub/art/2016/130/?utm_source=doi. The source code and articles was download from IPOL website.
 
