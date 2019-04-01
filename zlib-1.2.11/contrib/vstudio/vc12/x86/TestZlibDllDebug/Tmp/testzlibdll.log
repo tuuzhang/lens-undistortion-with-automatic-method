@@ -1,0 +1,14 @@
+﻿生成启动时间为 2019/3/27 17:00:52。
+     1>项目“D:\libpng\zlib-1.2.11\contrib\vstudio\vc12\testzlibdll.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\.. /I..\..\minizip /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D ZLIB_WINAPI /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86\TestZlibDllDebug\Tmp\\" /Fd"x86\TestZlibDllDebug\Tmp\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\testzlib\testzlib.c
+         testzlib.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"x86\TestZlibDllDebug\testzlibdll.exe" /INCREMENTAL /NOLOGO x86\ZlibDllDebug\zlibwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"x86\TestZlibDllDebug\testzlib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x86\TestZlibDllDebug\testzlibdll.lib" /MACHINE:X86 /SAFESEH x86\TestZlibDllDebug\Tmp\testzlib.obj
+         "D:\libpng\zlib-1.2.11\contrib\vstudio\vc12\x86\ZlibDllDebug\zlibwapi.lib"
+         testzlibdll.vcxproj -> D:\libpng\zlib-1.2.11\contrib\vstudio\vc12\x86\TestZlibDllDebug\testzlibdll.exe
+     1>已完成生成项目“D:\libpng\zlib-1.2.11\contrib\vstudio\vc12\testzlibdll.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.75

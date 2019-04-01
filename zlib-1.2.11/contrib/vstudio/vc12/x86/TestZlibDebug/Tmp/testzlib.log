@@ -1,0 +1,38 @@
+﻿生成启动时间为 2019/3/27 17:00:46。
+     1>项目“D:\libpng\zlib-1.2.11\contrib\vstudio\vc12\testzlib.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\.. /Zi /nologo /W3 /WX- /Od /Oy- /D ASMV /D ASMINF /D WIN32 /D ZLIB_WINAPI /D _DEBUG /D _CONSOLE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"x86\TestZlibDebug\Tmp\\" /Fo"x86\TestZlibDebug\Tmp\\" /Fd"x86\TestZlibDebug\Tmp\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\adler32.c ..\..\..\compress.c ..\..\..\crc32.c ..\..\..\deflate.c ..\..\..\infback.c ..\..\..\inffast.c ..\..\..\inflate.c ..\..\..\inftrees.c ..\..\testzlib\testzlib.c ..\..\..\trees.c ..\..\..\uncompr.c ..\..\..\zutil.c
+         zutil.c
+         uncompr.c
+         trees.c
+         testzlib.c
+         inftrees.c
+         inflate.c
+         inffast.c
+         Assembler code may have bugs -- use at your own risk
+         infback.c
+         deflate.c
+         Assembler code may have bugs -- use at your own risk
+         crc32.c
+         compress.c
+         adler32.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"x86\TestZlibDebug\testzlib.exe" /INCREMENTAL /NOLOGO ..\..\masmx86\match686.obj ..\..\masmx86\inffas32.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"x86\TestZlibDebug\testzlib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x86\TestZlibDebug\testzlib.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO x86\TestZlibDebug\Tmp\adler32.obj
+         x86\TestZlibDebug\Tmp\compress.obj
+         x86\TestZlibDebug\Tmp\crc32.obj
+         x86\TestZlibDebug\Tmp\deflate.obj
+         x86\TestZlibDebug\Tmp\infback.obj
+         x86\TestZlibDebug\Tmp\inffast.obj
+         x86\TestZlibDebug\Tmp\inflate.obj
+         x86\TestZlibDebug\Tmp\inftrees.obj
+         x86\TestZlibDebug\Tmp\testzlib.obj
+         x86\TestZlibDebug\Tmp\trees.obj
+         x86\TestZlibDebug\Tmp\uncompr.obj
+         x86\TestZlibDebug\Tmp\zutil.obj
+         testzlib.vcxproj -> D:\libpng\zlib-1.2.11\contrib\vstudio\vc12\x86\TestZlibDebug\testzlib.exe
+     1>已完成生成项目“D:\libpng\zlib-1.2.11\contrib\vstudio\vc12\testzlib.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.83

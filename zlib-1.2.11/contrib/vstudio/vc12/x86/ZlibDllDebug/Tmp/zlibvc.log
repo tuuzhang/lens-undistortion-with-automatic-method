@@ -1,0 +1,69 @@
+﻿生成启动时间为 2019/3/27 17:00:46。
+     1>项目“D:\libpng\zlib-1.2.11\contrib\vstudio\vc12\zlibvc.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>PreBuildEvent:
+         cd D:\libpng\zlib-1.2.11\contrib\masmx86
+         bld_ml32.bat
+         :VCEnd
+          Assembling: match686.asm
+         Microsoft (R) Macro Assembler Version 12.00.40629.0
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+          Assembling: inffas32.asm
+         Microsoft (R) Macro Assembler Version 12.00.40629.0
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\.. /I..\..\masmx86 /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_WARNINGS /D ZLIB_WINAPI /D ASMV /D ASMINF /D _WINDLL /D _UNICODE /D UNICODE /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86\ZlibDllDebug\Tmp\\" /Fd"x86\ZlibDllDebug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\adler32.c ..\..\..\compress.c ..\..\..\crc32.c ..\..\..\deflate.c ..\..\..\gzclose.c ..\..\..\gzlib.c ..\..\..\gzread.c ..\..\..\gzwrite.c ..\..\..\infback.c ..\..\..\inffast.c ..\..\..\inflate.c ..\..\..\inftrees.c ..\..\minizip\ioapi.c ..\..\minizip\iowin32.c ..\..\..\trees.c ..\..\..\uncompr.c ..\..\minizip\unzip.c ..\..\minizip\zip.c ..\..\..\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         Assembler code may have bugs -- use at your own risk
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         infback.c
+         inffast.c
+         Assembler code may have bugs -- use at your own risk
+         inflate.c
+         inftrees.c
+         ioapi.c
+         iowin32.c
+     1>..\..\minizip\iowin32.c(31): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         trees.c
+         uncompr.c
+         unzip.c
+         zip.c
+         zutil.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x040c" /nologo /fo"x86\ZlibDllDebug\Tmp\zlib.res" zlib.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"x86\ZlibDllDebug\zlibwapi.dll" /INCREMENTAL /NOLOGO ..\..\masmx86\match686.obj ..\..\masmx86\inffas32.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\zlibvc.def" /MANIFEST:NO /DEBUG /PDB:"x86\ZlibDllDebug\zlibwapi.pdb" /MAP:"x86\ZlibDllDebug\zlibwapi.map" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x86\ZlibDllDebug\zlibwapi.lib" /MACHINE:X86 /SAFESEH /MACHINE:I386 /SAFESEH:NO /DLL x86\ZlibDllDebug\Tmp\zlib.res
+         x86\ZlibDllDebug\Tmp\adler32.obj
+         x86\ZlibDllDebug\Tmp\compress.obj
+         x86\ZlibDllDebug\Tmp\crc32.obj
+         x86\ZlibDllDebug\Tmp\deflate.obj
+         x86\ZlibDllDebug\Tmp\gzclose.obj
+         x86\ZlibDllDebug\Tmp\gzlib.obj
+         x86\ZlibDllDebug\Tmp\gzread.obj
+         x86\ZlibDllDebug\Tmp\gzwrite.obj
+         x86\ZlibDllDebug\Tmp\infback.obj
+         x86\ZlibDllDebug\Tmp\inffast.obj
+         x86\ZlibDllDebug\Tmp\inflate.obj
+         x86\ZlibDllDebug\Tmp\inftrees.obj
+         x86\ZlibDllDebug\Tmp\ioapi.obj
+         x86\ZlibDllDebug\Tmp\iowin32.obj
+         x86\ZlibDllDebug\Tmp\trees.obj
+         x86\ZlibDllDebug\Tmp\uncompr.obj
+         x86\ZlibDllDebug\Tmp\unzip.obj
+         x86\ZlibDllDebug\Tmp\zip.obj
+         x86\ZlibDllDebug\Tmp\zutil.obj
+            正在创建库 x86\ZlibDllDebug\zlibwapi.lib 和对象 x86\ZlibDllDebug\zlibwapi.exp
+         zlibvc.vcxproj -> D:\libpng\zlib-1.2.11\contrib\vstudio\vc12\x86\ZlibDllDebug\zlibwapi.dll
+     1>已完成生成项目“D:\libpng\zlib-1.2.11\contrib\vstudio\vc12\zlibvc.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.92

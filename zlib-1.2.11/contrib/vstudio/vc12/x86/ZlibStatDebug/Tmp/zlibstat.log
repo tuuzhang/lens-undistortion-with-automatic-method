@@ -1,0 +1,51 @@
+﻿生成启动时间为 2019/3/27 17:00:46。
+     1>项目“D:\libpng\zlib-1.2.11\contrib\vstudio\vc12\zlibstat.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\.. /I..\..\masmx86 /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D ZLIB_WINAPI /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86\ZlibStatDebug\Tmp\\" /Fd"x86\ZlibStatDebug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\adler32.c ..\..\..\compress.c ..\..\..\crc32.c ..\..\..\deflate.c ..\..\..\gzclose.c ..\..\..\gzlib.c ..\..\..\gzread.c ..\..\..\gzwrite.c ..\..\..\infback.c ..\..\..\inffast.c ..\..\..\inflate.c ..\..\..\inftrees.c ..\..\minizip\ioapi.c ..\..\..\trees.c ..\..\..\uncompr.c ..\..\minizip\unzip.c ..\..\minizip\zip.c ..\..\..\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         ioapi.c
+         trees.c
+         uncompr.c
+         unzip.c
+         zip.c
+         zutil.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x040c" /nologo /fo"x86\ZlibStatDebug\Tmp\zlib.res" zlib.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"x86\ZlibStatDebug\zlibstat.lib" /NOLOGO /MACHINE:X86 /NODEFAULTLIB x86\ZlibStatDebug\Tmp\zlib.res
+         x86\ZlibStatDebug\Tmp\adler32.obj
+         x86\ZlibStatDebug\Tmp\compress.obj
+         x86\ZlibStatDebug\Tmp\crc32.obj
+         x86\ZlibStatDebug\Tmp\deflate.obj
+         x86\ZlibStatDebug\Tmp\gzclose.obj
+         x86\ZlibStatDebug\Tmp\gzlib.obj
+         x86\ZlibStatDebug\Tmp\gzread.obj
+         x86\ZlibStatDebug\Tmp\gzwrite.obj
+         x86\ZlibStatDebug\Tmp\infback.obj
+         x86\ZlibStatDebug\Tmp\inffast.obj
+         x86\ZlibStatDebug\Tmp\inflate.obj
+         x86\ZlibStatDebug\Tmp\inftrees.obj
+         x86\ZlibStatDebug\Tmp\ioapi.obj
+         x86\ZlibStatDebug\Tmp\trees.obj
+         x86\ZlibStatDebug\Tmp\uncompr.obj
+         x86\ZlibStatDebug\Tmp\unzip.obj
+         x86\ZlibStatDebug\Tmp\zip.obj
+         x86\ZlibStatDebug\Tmp\zutil.obj
+         zlibstat.vcxproj -> D:\libpng\zlib-1.2.11\contrib\vstudio\vc12\x86\ZlibStatDebug\zlibstat.lib
+     1>已完成生成项目“D:\libpng\zlib-1.2.11\contrib\vstudio\vc12\zlibstat.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.49
