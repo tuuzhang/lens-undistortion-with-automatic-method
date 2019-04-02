@@ -26,3 +26,6 @@ The source code path:lens-undistortion-with-automatic-method\lpng1636\ldm_pq2p_i
 
 # Models parameters
 In the path:lpng1636\projects\vstudio\ldm_pq2p_io\example\primitives.txt
+
+# Notice
+<font color=#660000 face="黑体">libpng use the bottom left point as the origin of coordinates，which is different from Opencv</font>
